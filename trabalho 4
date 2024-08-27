@@ -1,0 +1,11 @@
+1. DIFERENÇA ENTRE 3 LINGUAGENS DE PROGRAMAÇÃO;
+Python, Java e JavaScript.
+PYTHON: Linguagem de programação de alto nível, interpretada e multiparadigma (suporta programação procedural, orientada a objetos e funcional). Sintaxe simples e legível, facilitando a aprendizagem e o desenvolvimento rápido de aplicações. Amplamente utilizada em uma variedade de áreas, como ciência de dados, aprendizado de máquina, automação de tarefas, desenvolvimento web, entre outras.
+Possui uma vasta biblioteca de módulos e pacotes que estendem sua funcionalidade.
+JAVA: Linguagem de programação orientada a objetos, compilada e fortemente tipada. - Projetada para ser "escrever uma vez, executar em qualquer lugar" (write once, run anywhere), graças à sua máquina virtual (JVM). - Amplamente utilizada no desenvolvimento de aplicações empresariais, jogos, aplicativos móveis, entre outros. - Possui uma vasta biblioteca de classes e frameworks que facilitam o desenvolvimento de software. - É uma linguagem estática, o que significa que o tipo de uma variável é definido durante a compilação e não pode ser alterado durante a execução.
+JAVASCRIPT:  Linguagem de programação interpretada, multiparadigma (suporta programação funcional, orientada a objetos e baseada em eventos). Originalmente criada para ser executada nos navegadores, adquirindo suporte para execução em outros ambientes, como servidores (Node.js).Amplamente utilizada no desenvolvimento web front-end, criação de páginas dinâmicas, aplicações web e Node.js para back-end. Possui uma sintaxe leve e flexível, com suporte a programação funcional e assíncrona. É uma linguagem com tipagem dinâmica e fraca, o que significa que o tipo de uma variável pode mudar durante a execução e não é verificado de forma rígida.
+ UM CÓDIGO DE CADA UMA DELAS:
+PYTHON:public class HelloWorld { public static void main(String[] args) { System.out.println("Hello, World!"); } }
+JAVA: console.log("Hello, World!");
+JAVASCRIPT: print("Hello, World!")
+ssas são implementações básicas de um programa "Hello, World!" em cada uma das três linguagens de programação. Elas demonstram as diferenças sintáticas entre as linguagens, embora o resultado final seja o mesmo: a impressão da mensagem "Hello, World!" no console.
