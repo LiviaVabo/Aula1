@@ -1,0 +1,85 @@
+1)def imprimir_informacoes(nome, idade, cidade):
+print("Nome:", nome, "Idade:", idade, "Cidade:", cidade, sep=" | ", end=".\n")
+
+# Chamando a função com os parâmetros especificados
+imprimir_informacoes("Livia", 18, "Niterói")
+
+
+2)def calcular():
+# Solicita ao usuário os números e a operação
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+operacao = input("Digite a operação desejada (+, -, *, /): ")
+
+# Realiza a operação correspondente
+if operacao == '+':
+resultado = num1 + num2
+elif operacao == '-':
+resultado = num1 - num2
+elif operacao == '*':
+resultado = num1 * num2
+elif operacao == '/':
+if num2 != 0:
+resultado = num1 / num2
+else:
+return "Erro: Divisão por zero."
+else:
+return "Erro: Operação inválida."
+
+# Imprime o resultado
+print(f"O resultado de {num1} {operacao} {num2} é: {resultado}")
+
+# Chama a função
+calcular
+
+
+
+3)def lista_de_compras():
+# Solicita ao usuário para digitar os itens da lista de compras
+itens = input("Digite os itens da lista de compras (batom, rímel, blush, gloss), separados por vírgulas: ")
+
+# Divide a string em uma lista, removendo espaços em branco
+lista = [item.strip() for item in itens.split(',')]
+
+# Imprime cada item em uma linha separada
+print("Itens da lista de compras:")
+for item in lista:
+print(item)
+
+# Chama a função
+lista_de_compras()
+
+
+4)def converter_celsius_para_fahrenheit():
+# Solicita ao usuário a temperatura em Celsius
+celsius = float(input("Digite a temperatura em graus Celsius: "))
+
+# Converte Celsius para Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Imprime o resultado
+print(f"A temperatura em graus Fahrenheit é: {fahrenheit:.2f} °F")
+
+# Chama a função
+converter_celsius_para_fahrenheit()
+
+
+
+5)def curte():
+nomes = [] # Lista para armazenar os nomes
+
+while True:
+nome = input("Digite um nome (ou 'sair' para encerrar): ")
+
+if nome.lower() == 'sair':
+break # Sai do loop se o usuário digitar 'sair'
+
+nomes.append(nome) # Adiciona o nome à lista
+
+# Imprime todos os nomes digitados em linhas separadas
+print("Nomes digitados:")
+for nome in nomes:
+print(nome)
+
+# Chama a função
+curte()
